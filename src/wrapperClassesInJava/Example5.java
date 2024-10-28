@@ -10,6 +10,8 @@ public class Example5
         System.out.println(Character.MAX_RADIX);
         System.out.println(Character.MIN_RADIX);
 
+        int asciiCode =  Character.digit('A',10);
+        System.out.println("ASCII Code ");
         // Static Methods
         System.out.println("Are They Same : " + Character.compare('a','A'));
 
