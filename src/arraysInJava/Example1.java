@@ -8,7 +8,7 @@ public class Example1 {
         int n2 = 13;
 
         int[] nums = {1,2,3,4,5,6,7,8,9,10};
-        System.out.println(nums);
+        System.out.println(nums); // hashcode
 
         System.out.println(nums[0]);
         System.out.println(nums[1]);
@@ -37,7 +37,8 @@ public class Example1 {
 
         System.out.println("[1,2,3,4,5,6,7,8,9]");
 
-        System.out.println(Arrays.toString(nums));
+        String stringFormArray = Arrays.toString(nums);
+        System.out.println("String Representation Of Array : " + stringFormArray);
 
     }
 }

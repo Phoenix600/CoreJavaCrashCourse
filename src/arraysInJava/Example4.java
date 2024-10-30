@@ -1,14 +1,11 @@
 package arraysInJava;
-import java.util.*;
 
-// Calculating the sum of elements in array
-public class Example5 {
-    public static void main(String[] args)
-    {
+import java.util.Scanner;
 
+public class Example4 {
+    public static void main(String[] args) {
         int size; // scalar
         int[] nums; // reference variable or Vector
-        int sum = 0;
 
         Scanner Input = null;
         Input = new Scanner(System.in);
@@ -24,12 +21,13 @@ public class Example5 {
             nums[i] = Input.nextInt(); // 10, 20,
         }
 
-        // Calculating the sum of elements
         for(int i=0; i<size; i++)
         {
-          sum = sum + nums[i];
+            System.out.printf("nums[%d] : %d \n",i,nums[i]);
         }
-        System.out.println("Sum of Elements in Array : " + sum);
+
+        // [1,2,3,4,5,6,7,8,9,10]; //-> ][SUM OF ELEMENTS : 55 10
+
 
     }
 }
