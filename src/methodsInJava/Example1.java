@@ -1,5 +1,6 @@
 package methodsInJava;
 
+import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class Example1 {
@@ -11,6 +12,8 @@ public class Example1 {
         // calculating the volume of cuboid
         float volume = l * b * h;
         return volume;
+
+
     }
 
     public static void sayHello(String name)
@@ -32,9 +35,10 @@ public class Example1 {
         bre = Input.nextFloat();
         hei = Input.nextFloat();
 
-        volume = volumeOfCuboid(len,bre,hei);
+        volume = volumeOfCuboid(len,bre,hei); // 120
         System.out.println("Volume : " + volume);
 
         sayHello("Pranay");
+
     }
 }
