@@ -18,5 +18,7 @@ public class Example5
         String chars = Character.toString('A');
         System.out.println("Chars String : " + chars);
 
+        boolean result = Character.isDigit('1');
+        System.out.println("Is Digit : " + result);
     }
 }
